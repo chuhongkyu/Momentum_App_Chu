@@ -1,0 +1,72 @@
+#main_contents {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#todo_login {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 400px;
+  height: 800px;
+  border-radius: 25px;
+  border: solid rgb(184, 137, 36) 10px;
+  background-color: rgb(250, 241, 220);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pic {
+  width: 500px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  border: solid rgb(184, 137, 36) 5px;
+  margin-top: 20px;
+}
+
+#quote {
+  width: 500px;
+  height: 150px;
+  color: rgb(246, 252, 214);
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#quote :first-child {
+  display: flex;
+  font-size: 20px;
+}
+
+#quote :nth-child(2) {
+  display: flex;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+
+#greeting {
+  font-size: 65px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+button {
+  background: rgb(184, 137, 36);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+  padding: 0.5rem 0.5rem;
+}
+button:active,
+button:hover,
+button:focus {
+  background: rgb(75, 62, 36);
+  outline: 0;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 5px;
+}

@@ -1,28 +1,15 @@
 #main_contents {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #todo_login {
-  margin-top: 50px;
-  margin-left: 20px;
-  width: 400px;
-  height: 800px;
-  border-radius: 25px;
-  border: solid rgb(184, 137, 36) 10px;
-  background-color: rgb(250, 241, 220);
+  width: 100%;
+  height: 100%;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.pic {
-  width: 500px;
-  height: 380px;
-  display: flex;
-  align-items: center;
-  border: solid rgb(184, 137, 36) 5px;
-  margin-top: 20px;
 }
 
 #quote {
@@ -69,4 +56,12 @@ button:focus {
 li {
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+.pic {
+  width: 500px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }

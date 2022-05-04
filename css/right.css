@@ -26,6 +26,13 @@
     font-size: 15px;
 }
 
+#greeting{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
 #login-form{
     margin-top: 10px;
 }
@@ -46,4 +53,46 @@
 #login-form button:hover {
     background-color: rgb(27, 27, 27);
     color: white;
+}
+
+#todo-form input{
+    border-style: none;
+    padding: 10px 20px;
+    background-color: rgb(182, 181, 181);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#todo-form button {
+    border-style: none;
+    padding: 10px 10px;
+    background-color: rgb(182, 181, 181);
+    border-radius: 10px;
+}
+
+#todo-form button:hover {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+#todo-list{
+    width: 100%;
+    background-color: rgb(229, 231, 233);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 10px;
+}
+#todo-list li{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#todo-list li button{
+    background-color: transparent;
+}
+#todo-list li button:hover {
+    background-color: black;
 }

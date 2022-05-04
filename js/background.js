@@ -1,9 +1,8 @@
-const images = ["01.png","02.png","03.png","04.png"];
-
+const images = ["01.jpg","02.jpg","03.jpg","04.jpg"];
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 const bgImage = document.createElement("img");
 const pic = "pic";
-const imgpic = document.querySelector("#quote");
+const imgpic = document.querySelector(".left_section");
 
 
 function photoImg(){

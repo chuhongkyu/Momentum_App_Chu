@@ -1,0 +1,44 @@
+.left_section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.left_section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.left_section:hover > #quote{
+    display: flex;
+}
+
+#quote{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.205);
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+#quote span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#quote span:last-child{
+    margin-top: 15px;
+    text-align: end;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,48 @@
+.right_section {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#weather{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+#weather p{
+    font-size: 15px;
+}
+
+#login-form{
+    margin-top: 10px;
+}
+
+#login-form input{
+    border-style: none;
+    padding: 10px 20px;
+    background-color: rgb(182, 181, 181);
+    border-radius: 20px;
+}
+
+#login-form button{
+    border-style: none;
+    padding: 10px 20px;
+    background-color: rgb(182, 181, 181);
+}
+
+#login-form button:hover {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}

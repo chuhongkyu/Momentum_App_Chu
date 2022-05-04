@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="kr">
-
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,56 +7,47 @@
     <title>ToDo App Chu</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/ToDoIcon.png">
-    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
-    <script defer src="js/greetings.js"></script>
-    <script defer src="js/clock.js"></script>
-    <script defer src="js/quotes.js"></script>
-    <script defer src="js/background.js"></script>
-    <script defer src="js/todo.js"></script>
-    <script defer src="js/weather.js"></script>
+    <script src="https://kit.fontawesome.com/bf3a224d0a.js" crossorigin="anonymous"></script>
+    <script defer src="./js/background.js"></script>
+    <script defer src="./js/quotes.js"></script>
+    <script defer src="./js/weather.js"></script>
+    <script defer src="./js/greetings.js"></script>
+    <script defer src="./js/todo.js"></script>
 </head>
 <body>
-    <div id="title_container">
-        <span class="clock_design">
-            <h2 id="clock">00:00:00</h2>
-        </span>
-        <span class="title_design">
-            <h1>
-                Welcome to Today
-            </h1>
-        </span>
-        <div id="weather">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-    <div id="main_contents">
-       
-        <div id="todo_login">
-            <form class="hidden" id="login-form">
-            <input
-            required
-            maxlength="15"
-            type="text"
-            placeholder="What is your name?"
-            />
-
-            <input type="submit" value="Log In" />
-            </form>
-            
-            <h1 id="greeting" class="hidden"></h1>
-            <form id="todo-form">
-            <input type="text" placeholder="Write a To Do and Press Enter" required />
-            </form>
-            <ul id="todo-list"></ul>
+        <div class="left_section">
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
         </div>
 
-        <div id="quote">
-            <span></span>
-            <span></span>
+        <div class="right_section">
+            <div class="right_container">
+                <div id="weather"></div>
+                <div class="input_box">
+                    <h1>Login Your Name</h1>
+                    <form id="login-form" class="hidden">
+                        <input type="text" placeholder="Write your name" maxlength="10" minlength="1">
+                        <button type="submit" >Click</button>
+                    </form>
+                    <div id="greeting" class="hidden"></div>
+                    <br>
+
+                    <h1>Make Your To Do List</h1>
+                    <form id="todo-form">
+                        <input type="text" placeholder="Make Your To Do List" minlength="1">
+                        <button type="submit">🟣</button>
+                        <ul id="todo-list">
+                        </ul>
+                    </form>
+
+                </div>
+
+            </div>
+        
         </div>
-    </div>
+
+    
 </body>
-
 </html>

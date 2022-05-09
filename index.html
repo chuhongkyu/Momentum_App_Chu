@@ -38,9 +38,17 @@
                     <h1>Make Your To Do List</h1>
                     <form id="todo-form">
                         <input type="text" placeholder="Make Your To Do List" minlength="1">
-                        <button type="submit">🟣</button>
-                        <ul id="todo-list">
-                        </ul>
+                        <button id="todo-form-submit" type="submit">🟣</button>
+                        <div id="todo-list-container">
+                            <div id="todo-list-header">
+                                <button id="todo-show">To Do List</button>
+                                <button id="check-show">✔</button>
+                                <button id="delete-show">🗑</button>
+                            </div>
+                            
+                            <ul id="todo-list">
+                            </ul>
+                        </div>
                     </form>
 
                 </div>

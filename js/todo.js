@@ -4,15 +4,12 @@ const toDoList = document.getElementById("todo-list");
 
 const toDoShowBtn = document.getElementById("todo-show");
 const checkShowBtn = document.getElementById("check-show");
-const deleteShowBtn = document.getElementById("delete-show");
 
 const TODOS_KEY = "todos";
 
 console.log(toDoInput);
 
 let toDos = [];
-
-
 
 function saveToDos(){
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
@@ -29,7 +26,6 @@ function toDoShow(event){
         }
     }
 }
-
 
 function checkShow(event){
     let toDoItem = document.querySelectorAll("#todo-list li");
